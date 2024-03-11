@@ -18,13 +18,13 @@ export default function NavBarLinksGroup() {
         >
           <NavLink
             className={classes.navLink}
-            label="First child link"
-            href="#"
+            label="Dates"
+            href="/reports/dates"
           />
           <NavLink
             className={classes.navLink}
-            label="Second child link"
-            href="#"
+            label="Numbers"
+            href="/reports/numbers"
           />
           <NavLink
             className={classes.navLink}
@@ -43,13 +43,13 @@ export default function NavBarLinksGroup() {
         >
           <NavLink
             className={classes.navLink}
-            label="First child link"
-            href="#"
+            label="Dates"
+            href="/forms/dates"
           />
           <NavLink
             className={classes.navLink}
-            label="Second child link"
-            href="#"
+            label="Numbers"
+            href="/forms/numbers"
           />
           <NavLink
             className={classes.navLink}
