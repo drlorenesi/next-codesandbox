@@ -25,7 +25,7 @@ import {
 } from "@tabler/icons-react";
 
 // Components
-import NavbarLinksGroup from "./NavBarLinksGroup";
+import NavbarLinksGroup from "./NavbarLinksGroup";
 import Footer from "./Footer";
 import classes from "./Shell.module.css";
 
@@ -89,7 +89,7 @@ const Shell: React.FC<ShellProps> = ({ children, ...props }) => {
             <ActionIcon
               onClick={() =>
                 setColorScheme(
-                  computedColorScheme === "light" ? "dark" : "light"
+                  computedColorScheme === "light" ? "dark" : "light",
                 )
               }
               variant="default"
