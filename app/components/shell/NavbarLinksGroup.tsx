@@ -8,9 +8,7 @@ export default function NavBarLinksGroup() {
     <AppShell.Navbar p="md">
       <AppShell.Section grow component={ScrollArea}>
         {/* Reports */}
-        {/* ------- */}
         <NavLink
-          href="#required-for-focus"
           label="Reports"
           leftSection={
             <ActionIcon variant="filled" color="cyan" size="sm">
@@ -21,23 +19,21 @@ export default function NavBarLinksGroup() {
           <NavLink
             className={classes.navLink}
             label="First child link"
-            href="#required-for-focus"
+            href="#"
           />
           <NavLink
             className={classes.navLink}
             label="Second child link"
-            href="#required-for-focus"
+            href="#"
           />
           <NavLink
             className={classes.navLink}
             label="Third child link"
-            href="#required-for-focus"
+            href="#"
           />
         </NavLink>
         {/* Forms */}
-        {/* ----- */}
         <NavLink
-          href="#required-for-focus"
           label="Forms"
           leftSection={
             <ActionIcon variant="filled" color="grape" size="sm">
@@ -45,14 +41,24 @@ export default function NavBarLinksGroup() {
             </ActionIcon>
           }
         >
-          <NavLink label="First child link" href="#required-for-focus" />
-          <NavLink label="Second child link" href="#required-for-focus" />
-          <NavLink label="Third child link" href="#required-for-focus" />
+          <NavLink
+            className={classes.navLink}
+            label="First child link"
+            href="#"
+          />
+          <NavLink
+            className={classes.navLink}
+            label="Second child link"
+            href="#"
+          />
+          <NavLink
+            className={classes.navLink}
+            label="Third child link"
+            href="#"
+          />
         </NavLink>
         {/* Tables */}
-        {/* ------ */}
         <NavLink
-          href="#required-for-focus"
           label="Third parent link"
           leftSection={
             <ActionIcon variant="filled" color="indigo" size="sm">
@@ -60,9 +66,21 @@ export default function NavBarLinksGroup() {
             </ActionIcon>
           }
         >
-          <NavLink label="First child link" href="#required-for-focus" />
-          <NavLink label="Second child link" href="#required-for-focus" />
-          <NavLink label="Third child link" href="#required-for-focus" />
+          <NavLink
+            className={classes.navLink}
+            label="First child link"
+            href="#"
+          />
+          <NavLink
+            className={classes.navLink}
+            label="Second child link"
+            href="#"
+          />
+          <NavLink
+            className={classes.navLink}
+            label="Third child link"
+            href="#"
+          />
         </NavLink>
       </AppShell.Section>
     </AppShell.Navbar>
